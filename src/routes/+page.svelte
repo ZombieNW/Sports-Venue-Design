@@ -40,7 +40,7 @@
 			<div class="absolute left-0 top-0 z-10 flex h-20 w-20 items-center justify-center rounded-ee-xl rounded-ss-xl bg-sky-700 text-center text-2xl font-bold tracking-wider">{@html getEventListFormattedDate(event.date).split(' ').join('<br>')}</div>
 			<div class="absolute bottom-4 left-4 z-10 m-4 w-5/6">
 				<a href="/events/{event.id}/info" class="text-3xl font-bold underline decoration-transparent transition-colors hover:decoration-white">{event.name}</a>
-				<p class="text-xl italic text-gray-300">{event.subtitle}</p>
+				<p class="text-xl italic text-gray-400">{event.subtitle}</p>
 				<hr class="my-2 w-full border-gray-700" />
 				<div class="flex w-full">
 					<a href="/events/{event.id}/tickets" class="z-10 mx-2 flex h-12 w-auto flex-1 items-center justify-center rounded-ee-xl rounded-ss-xl bg-sky-700 text-center text-xl font-bold transition-transform hover:scale-105 hover:bg-sky-600">Tickets</a>
@@ -67,11 +67,11 @@
 				{:else}
 					{#each upcomingEvents as event}
 						<div class="relative m-4 flex flex-col rounded-xl bg-gray-900 p-4 outline outline-black/50 transition-transform hover:scale-105">
-							<div class="absolute right-0 top-0 p-4 text-lg font-normal text-gray-300">
+							<div class="absolute right-0 top-0 p-4 text-lg font-normal text-gray-400">
 								{getEventListFormattedDate(event.date)} - {getTimeAMPMFromDate(event.date)}
 							</div>
 							<a href="/events/{event.id}/info" class="text-2xl font-bold underline decoration-transparent transition-colors hover:decoration-white">{event.name}</a>
-							<p class="text-xl italic text-gray-300">{event.subtitle}</p>
+							<p class="text-xl italic text-gray-400">{event.subtitle}</p>
 							<hr class="my-2 w-full border-gray-700" />
 						</div>
 					{/each}
@@ -94,7 +94,7 @@
 		</div>
 		<div class="absolute bottom-4 left-4 z-10 m-4 w-5/6">
 			<a href="/rentals" class="text-3xl font-bold underline decoration-transparent transition-colors hover:decoration-white">Rentals</a>
-			<p class="text-xl italic text-gray-300">Talk to our friendly staff about booking your event here.</p>
+			<p class="text-xl italic text-gray-400">Talk to our friendly staff about booking your event here.</p>
 			<hr class="my-2 w-full border-gray-700" />
 		</div>
 	</div>
@@ -106,7 +106,7 @@
 		</div>
 		<div class="absolute bottom-4 left-4 z-10 m-4 w-5/6">
 			<a href="/faqs" class="text-3xl font-bold underline decoration-transparent transition-colors hover:decoration-white">FAQs</a>
-			<p class="text-xl italic text-gray-300">Most common questions from our vendors and guests.</p>
+			<p class="text-xl italic text-gray-400">Most common questions from our vendors and guests.</p>
 			<hr class="my-2 w-full border-gray-700" />
 		</div>
 	</div>
@@ -118,7 +118,7 @@
 		</div>
 		<div class="absolute bottom-4 left-4 z-10 m-4 w-5/6">
 			<a href="/events" class="text-3xl font-bold underline decoration-transparent transition-colors hover:decoration-white">Events</a>
-			<p class="text-xl italic text-gray-300">A list and calendar of all future events.</p>
+			<p class="text-xl italic text-gray-400">A list and calendar of all future events.</p>
 			<hr class="my-2 w-full border-gray-700" />
 		</div>
 	</div>

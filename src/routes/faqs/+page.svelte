@@ -13,6 +13,8 @@
 	});
 </script>
 
+<title>FAQs | Cooltown Arena</title>
+
 <Header />
 
 <div class="mx-12 my-12">
@@ -23,8 +25,10 @@
 <div class="mx-12 my-12 flex">
 	<div class="flex w-64 flex-col">
 		{#each faqs as category}
-			<a href="#{category.category}" onclick={() => (selectedSection = category.category)} class="my-3 text-xl drop-shadow-[0_2.5px_2.5px_rgba(0,0,0,0.8)] {selectedSection === category.category ? 'font-bold text-blue-400' : 'text-gray-400'}"
-				>{category.category}</a
+			<a
+				href="#{category.category}"
+				onclick={() => (selectedSection = category.category)}
+				class="my-2 p-2 text-xl drop-shadow-[0_2.5px_2.5px_rgba(0,0,0,0.8)] {selectedSection === category.category ? 'border-l-4 border-blue-400 font-bold text-blue-400' : 'text-gray-400'}">{category.category}</a
 			>
 		{/each}
 	</div>

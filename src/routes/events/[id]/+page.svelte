@@ -11,3 +11,5 @@
 		}
 	}
 </script>
+
+<title>Redirecting...</title>

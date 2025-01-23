@@ -4,8 +4,9 @@
 		"name": "Will Wood",
 		"subtitle": "The Normal Tour",
 		"image": "",
-		"description": "Will Wood is back in concert! Featuring tracks from his album: The Normal Album, expect hijinx and chicanery!",
+		"description": "Will Wood is back in concert! Featuring tracks from his album: The Normal Album, expect hijinx and chicanery! Don't miss the chance to experience his unique style and stage presence live.",
 		"date": 1737853200000,
+		"seatpicker": true,
 		"tickets": [
 			{
 				"name": "General Admission",
@@ -24,8 +25,9 @@
 		"name": "Green Thumb Expo",
 		"subtitle": "Annual Gardening Trade Show",
 		"image": "",
-		"description": "Join gardening enthusiasts and experts from around the world for workshops, exhibitions, and networking opportunities.",
+		"description": "Join gardening enthusiasts and experts from around the world for workshops, exhibitions, and networking opportunities. Discover the latest in gardening trends and techniques while connecting with like-minded individuals.",
 		"date": 1737939600000,
+		"seatpicker": false,
 		"tickets": [
 			{
 				"name": "General Admission",
@@ -44,8 +46,9 @@
 		"name": "Cooltown Regional Championship",
 		"subtitle": "High School Basketball Semifinals",
 		"image": "",
-		"description": "The top four high school teams face off in an exciting semifinal showdown. Come support your local athletes!",
+		"description": "The top four high school teams face off in an exciting semifinal showdown. Come support your local athletes and enjoy an action-packed day of basketball.",
 		"date": 1738026000000,
+		"seatpicker": true,
 		"tickets": [
 			{
 				"name": "General Admission",
@@ -64,8 +67,9 @@
 		"name": "Comedy Night",
 		"subtitle": "A Night of Funny",
 		"image": "",
-		"description": "A lineup of hilarious stand-up comedians from around the country for one unforgettable night.",
+		"description": "A lineup of hilarious stand-up comedians from around the country for one unforgettable night. Prepare for an evening filled with laughter and good vibes.",
 		"date": 1738112400000,
+		"seatpicker": true,
 		"tickets": [
 			{
 				"name": "General Admission",
@@ -84,8 +88,9 @@
 		"name": "Battle of the Bands",
 		"subtitle": "Music!",
 		"image": "",
-		"description": "Watch the best local bands compete for the title of Cooltown's favorite! Featuring special guest judges and audience voting.",
+		"description": "Watch the best local bands compete for the title of Cooltown's favorite! Featuring special guest judges and audience voting, this event promises to be a thrilling musical showdown.",
 		"date": 1738198800000,
+		"seatpicker": true,
 		"tickets": [
 			{
 				"name": "General Admission",
@@ -104,8 +109,9 @@
 		"name": "Wine and Cheese Tasting",
 		"subtitle": "A food festival for all!",
 		"image": "",
-		"description": "Join us for an evening of wine and cheese tasting.",
+		"description": "Join us for an evening of wine and cheese tasting. Experience an exquisite selection of wines paired with a variety of gourmet cheeses.",
 		"date": 1737914400000,
+		"seatpicker": false,
 		"tickets": [
 			{
 				"name": "General Admission",
@@ -124,8 +130,9 @@
 		"name": "Charity Run",
 		"subtitle": "Supporting Red Cross",
 		"image": "",
-		"description": "Join us for a charity run to support the local community.",
+		"description": "Join us for a charity run to support the local community. Enjoy the fresh air and exercise while contributing to a great cause.",
 		"date": 1738000800000,
+		"seatpicker": false,
 		"tickets": [
 			{
 				"name": "General Admission",
@@ -144,8 +151,9 @@
 		"name": "Karaoke Night",
 		"subtitle": "Bring friends! Drinks being sold!",
 		"image": "",
-		"description": "Join us for a night of karaoke fun.",
+		"description": "Join us for a night of karaoke fun. Sing your heart out and enjoy a wide selection of songs.",
 		"date": 1738126800000,
+		"seatpicker": true,
 		"tickets": [
 			{
 				"name": "General Admission",
@@ -164,8 +172,9 @@
 		"name": "Paint and Sip",
 		"subtitle": "Paint and get tipsy, you get it.",
 		"image": "",
-		"description": "Join us for a night of painting and sipping.",
+		"description": "Join us for a night of painting and sipping. Unleash your creativity while enjoying a glass of your favorite beverage.",
 		"date": 1738137600000,
+		"seatpicker": false,
 		"tickets": [
 			{
 				"name": "General Admission",
@@ -184,8 +193,9 @@
 		"name": "Trivia Night",
 		"subtitle": "Test yourself and your friends!",
 		"image": "",
-		"description": "Join us for a night of trivia fun.",
+		"description": "Join us for a night of trivia fun. Challenge your knowledge and compete with others in a lively atmosphere.",
 		"date": 1738224000000,
+		"seatpicker": true,
 		"tickets": [
 			{
 				"name": "General Admission",
@@ -204,8 +214,9 @@
 		"name": "Comedy Open Mic",
 		"subtitle": "Listen to the funniest people from YOUR area!",
 		"image": "",
-		"description": "Join us for a night of comedy open mic.",
+		"description": "Join us for a night of comedy open mic. Witness local talents as they deliver their best jokes on stage.",
 		"date": 1738310400000,
+		"seatpicker": true,
 		"tickets": [
 			{
 				"name": "General Admission",
@@ -224,8 +235,9 @@
 		"name": "Book Con",
 		"subtitle": "Including over 20 authors!",
 		"image": "",
-		"description": "Join us for a night of book discussion.",
+		"description": "Join us for a night of book discussion. Meet and interact with authors, participate in panels, and explore the world of literature.",
 		"date": 1738396800000,
+		"seatpicker": false,
 		"tickets": [
 			{
 				"name": "General Admission",
@@ -244,8 +256,9 @@
 		"name": "Art Show",
 		"subtitle": "See the most thought provoking pieces from students and artists.",
 		"image": "",
-		"description": "Join us for an evening of art viewing and discussion.",
+		"description": "Join us for an evening of art viewing and discussion. Discover inspiring works from emerging and established artists.",
 		"date": 1738483200000,
+		"seatpicker": false,
 		"tickets": [
 			{
 				"name": "General Admission",
@@ -264,8 +277,9 @@
 		"name": "Music Night",
 		"subtitle": "Featuring 15 bands!",
 		"image": "",
-		"description": "Join us for a night of music performances.",
+		"description": "Join us for a night of music performances. Experience a diverse lineup of bands and enjoy a variety of musical genres.",
 		"date": 1738574400000,
+		"seatpicker": true,
 		"tickets": [
 			{
 				"name": "General Admission",

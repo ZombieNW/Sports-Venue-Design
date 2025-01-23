@@ -46,19 +46,19 @@
 <div class="m-4 rounded-xl outline outline-black/50">
 	<div class="flex flex-col items-center justify-center bg-black/50 py-8">
 		<div class="flex items-center">
-			<button aria-label="calendar backward" class="text-gray-300 hover:text-gray-100" onclick={prevMonth}>
+			<button aria-label="calendar backward" class="text-gray-400 hover:text-gray-100" onclick={prevMonth}>
 				<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
 				</svg>
 			</button>
 			<h1 class="mx-4 text-5xl">{currentDate.toLocaleString('default', { month: 'long' })} {currentDate.getFullYear()}</h1>
-			<button aria-label="calendar forward" class="text-gray-300 hover:text-gray-100" onclick={nextMonth}>
+			<button aria-label="calendar forward" class="text-gray-400 hover:text-gray-100" onclick={nextMonth}>
 				<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
 				</svg>
 			</button>
 		</div>
-		<div class="mt-4 grid w-full grid-cols-7 gap-x-4 text-center text-lg font-semibold text-gray-300">
+		<div class="mt-4 grid w-full grid-cols-7 gap-x-4 text-center text-lg font-semibold text-gray-400">
 			<div>Sun</div>
 			<div>Mon</div>
 			<div>Tue</div>
