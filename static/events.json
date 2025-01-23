@@ -1,0 +1,277 @@
+[
+	{
+		"id": 0,
+		"name": "Will Wood",
+		"subtitle": "The Normal Tour",
+		"image": "",
+		"description": "Will Wood is back in concert! Featuring tracks from his album: The Normal Album, expect hijinx and chicanery!",
+		"date": 1737853200000,
+		"tickets": [
+			{
+				"name": "General Admission",
+				"description": "Basic viewing ticket experience at Cooltown Arena.",
+				"price": 80
+			},
+			{
+				"name": "VIP Admission",
+				"description": "Up and close viewing with a chance to meet Will backstage!",
+				"price": 160
+			}
+		]
+	},
+	{
+		"id": 1,
+		"name": "Green Thumb Expo",
+		"subtitle": "Annual Gardening Trade Show",
+		"image": "",
+		"description": "Join gardening enthusiasts and experts from around the world for workshops, exhibitions, and networking opportunities.",
+		"date": 1737939600000,
+		"tickets": [
+			{
+				"name": "General Admission",
+				"description": "Access to all exhibition halls and general workshops.",
+				"price": 20
+			},
+			{
+				"name": "VIP Admission",
+				"description": "Includes general access, premium workshops, and an exclusive gift bag.",
+				"price": 50
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Cooltown Regional Championship",
+		"subtitle": "High School Basketball Semifinals",
+		"image": "",
+		"description": "The top four high school teams face off in an exciting semifinal showdown. Come support your local athletes!",
+		"date": 1738026000000,
+		"tickets": [
+			{
+				"name": "General Admission",
+				"description": "Seating on a first-come, first-served basis.",
+				"price": 10
+			},
+			{
+				"name": "Courtside Seating",
+				"description": "Get up close to the action with courtside seats.",
+				"price": 25
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Comedy Night",
+		"subtitle": "A Night of Funny",
+		"image": "",
+		"description": "A lineup of hilarious stand-up comedians from around the country for one unforgettable night.",
+		"date": 1738112400000,
+		"tickets": [
+			{
+				"name": "General Admission",
+				"description": "Seating on a first-come, first-served basis.",
+				"price": 30
+			},
+			{
+				"name": "VIP Table",
+				"description": "Reserved table seating with complimentary snacks and drinks.",
+				"price": 60
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "Battle of the Bands",
+		"subtitle": "Music!",
+		"image": "",
+		"description": "Watch the best local bands compete for the title of Cooltown's favorite! Featuring special guest judges and audience voting.",
+		"date": 1738198800000,
+		"tickets": [
+			{
+				"name": "General Admission",
+				"description": "Access to all performances. Standing room only.",
+				"price": 15
+			},
+			{
+				"name": "Preferred Seating",
+				"description": "Reserved seats near the stage for an enhanced experience.",
+				"price": 35
+			}
+		]
+	},
+	{
+		"id": 5,
+		"name": "Wine and Cheese Tasting",
+		"subtitle": "A food festival for all!",
+		"image": "",
+		"description": "Join us for an evening of wine and cheese tasting.",
+		"date": 1737914400000,
+		"tickets": [
+			{
+				"name": "General Admission",
+				"description": "Access to all tastings.",
+				"price": 50
+			},
+			{
+				"name": "VIP Admission",
+				"description": "Includes general access, a private tasting, and a take-home gift.",
+				"price": 100
+			}
+		]
+	},
+	{
+		"id": 6,
+		"name": "Charity Run",
+		"subtitle": "Supporting Red Cross",
+		"image": "",
+		"description": "Join us for a charity run to support the local community.",
+		"date": 1738000800000,
+		"tickets": [
+			{
+				"name": "General Admission",
+				"description": "Participate in the charity run.",
+				"price": 20
+			},
+			{
+				"name": "VIP Admission",
+				"description": "Includes general access, a free t-shirt, and access to the VIP area.",
+				"price": 50
+			}
+		]
+	},
+	{
+		"id": 7,
+		"name": "Karaoke Night",
+		"subtitle": "Bring friends! Drinks being sold!",
+		"image": "",
+		"description": "Join us for a night of karaoke fun.",
+		"date": 1738126800000,
+		"tickets": [
+			{
+				"name": "General Admission",
+				"description": "Access to the karaoke event.",
+				"price": 10
+			},
+			{
+				"name": "VIP Admission",
+				"description": "Includes general access, a free drink, and priority entry.",
+				"price": 20
+			}
+		]
+	},
+	{
+		"id": 8,
+		"name": "Paint and Sip",
+		"subtitle": "Paint and get tipsy, you get it.",
+		"image": "",
+		"description": "Join us for a night of painting and sipping.",
+		"date": 1738137600000,
+		"tickets": [
+			{
+				"name": "General Admission",
+				"description": "Access to the paint and sip event.",
+				"price": 30
+			},
+			{
+				"name": "VIP Admission",
+				"description": "Includes general access, a free drink, and a take-home canvas.",
+				"price": 60
+			}
+		]
+	},
+	{
+		"id": 9,
+		"name": "Trivia Night",
+		"subtitle": "Test yourself and your friends!",
+		"image": "",
+		"description": "Join us for a night of trivia fun.",
+		"date": 1738224000000,
+		"tickets": [
+			{
+				"name": "General Admission",
+				"description": "Access to the trivia event.",
+				"price": 10
+			},
+			{
+				"name": "VIP Admission",
+				"description": "Includes general access, a free drink, and priority entry.",
+				"price": 20
+			}
+		]
+	},
+	{
+		"id": 10,
+		"name": "Comedy Open Mic",
+		"subtitle": "Listen to the funniest people from YOUR area!",
+		"image": "",
+		"description": "Join us for a night of comedy open mic.",
+		"date": 1738310400000,
+		"tickets": [
+			{
+				"name": "General Admission",
+				"description": "Access to the comedy open mic event.",
+				"price": 15
+			},
+			{
+				"name": "VIP Admission",
+				"description": "Includes general access, a free drink, and priority entry.",
+				"price": 30
+			}
+		]
+	},
+	{
+		"id": 11,
+		"name": "Book Con",
+		"subtitle": "Including over 20 authors!",
+		"image": "",
+		"description": "Join us for a night of book discussion.",
+		"date": 1738396800000,
+		"tickets": [
+			{
+				"name": "General Admission",
+				"description": "Access to the book con event.",
+				"price": 10
+			},
+			{
+				"name": "VIP Admission",
+				"description": "Includes general access, a free meal, and priority entry.",
+				"price": 20
+			}
+		]
+	},
+	{
+		"id": 12,
+		"name": "Art Show",
+		"subtitle": "See the most thought provoking pieces from students and artists.",
+		"image": "",
+		"description": "Join us for an evening of art viewing and discussion.",
+		"date": 1738483200000,
+		"tickets": [
+			{
+				"name": "General Admission",
+				"description": "Access to the art show event.",
+				"price": 20
+			},
+			{
+				"name": "VIP Admission",
+				"description": "Includes general access, a free drink, and priority entry.",
+				"price": 40
+			}
+		]
+	},
+	{
+		"id": 13,
+		"name": "Music Night",
+		"subtitle": "Featuring 15 bands!",
+		"image": "",
+		"description": "Join us for a night of music performances.",
+		"date": 1738574400000,
+		"tickets": [
+			{
+				"name": "General Admission",
+				"description": "Access to the music night event.",
+				"price": 15
+			}
+		]
+	}
+]

@@ -1,0 +1,107 @@
+[
+	{
+		"category": "General",
+		"questions": [
+			{
+				"question": "How do I get to the arena?/What is the address?",
+				"answer": "INFORMATION GOES HERE"
+			},
+			{
+				"question": "What are the hours of operation?",
+				"answer": "Our main office is open from 9am to 5pm Monday through Friday. The arena is open two hours before the scheduled event and closes 30 minutes after the event ends."
+			},
+			{
+				"question": "How do I get tickets?",
+				"answer": "Tickets will be available for purchase at the arena during the event. You can also purchase tickets online <a href='/events'>here</a>."
+			},
+			{
+				"question": "Is there parking available?",
+				"answer": "Limited parking is available at the arena. Please refer to each event page for detailed parking information and rates."
+			}
+		]
+	},
+	{
+		"category": "Events",
+		"questions": [
+			{
+				"question": "Where can I find a schedule of events?",
+				"answer": "Please click <a href='/events'>this link</a> for a schedule of all future events."
+			},
+			{
+				"question": "How do I get tickets?",
+				"answer": "Tickets will be available for purchase at the arena during the event. You can also purchase tickets online <a href='/events'>here</a>."
+			},
+			{
+				"question": "Can I bring my own food and drinks?",
+				"answer": "No, outside food and drinks are not allowed. We have a variety of food and beverage options available for purchase at the arena."
+			},
+			{
+				"question": "Is there an age restriction on events?",
+				"answer": "Certain events may have an age restriction. Please check the event page for more details."
+			}
+		]
+	},
+	{
+		"category": "Rental",
+		"questions": [
+			{
+				"question": "How do I rent the arena for an event?",
+				"answer": "Please click <a href='/rentals'>this link</a> for information on renting the arena."
+			},
+			{
+				"question": "What kind of events can be hosted here?",
+				"answer": "Any event you can imagine that will fit our space. We ask you not to host anything that is illegal, unsafe, or innapropriate for a setting near a school (events involving alcohol are prohibited after 6pm). We also ask you to be respectful of our staff and guests."
+			},
+			{
+				"question": "What is included with the rental?",
+				"answer": "Please speak to one of our agents for more information <a href='/rentals'>here</a>."
+			},
+			{
+				"question": "Are catering or decoration services available?",
+				"answer": "We do offer catering and decoration services through third parties. Please speak to one of our agents for more information <a href='/rentals'>here</a>."
+			}
+		]
+	},
+	{
+		"category": "Facility",
+		"questions": [
+			{
+				"question": "Is the venue accessible for those with disabilities?",
+				"answer": "Our arena is fully ADA-compliant. Ramps, elevators, seating, and restrooms are all accessible for those with mobility impairments."
+			},
+			{
+				"question": "Is there wifi available?",
+				"answer": "Yes, the arena has wifi available for guests to use! Our high speed internet allows for even high usage events, like online gaming 'e-sports' tournaments"
+			},
+			{
+				"question": "Are there ATMs on-site?",
+				"answer": "Yes! There are two ATMs on-site at each main enterance. Cashless payment options are available at our snack-bar."
+			},
+			{
+				"question": "Who should I contact for special requests or accommodations?",
+				"answer": "Please contact us at zombienw@gmail.com for any special requests or accommodations."
+			}
+		]
+	},
+	{
+		"category": "Policies",
+		"questions": [
+			{
+				"question": "What is the arena's bag policy?",
+				"answer": "Bags are subject to search. Bags larger than 12x12x12 inches are not allowed. Prohibited items include glass containers, outside food and drinks, and weapons of any kind. Security wanding and bag checks are performed on all guests."
+			},
+			{
+				"question": "Can I bring a camera or recording equipment?",
+				"answer": "Please see your event page for details."
+			},
+			{
+				"question": "What is the refund policy for tickets or bookings?",
+				"answer": "All ticket sales are final. Refunds or exchanges are not available. Bookings are subject to a 50% deposit, non-refundable."
+			},
+			{
+				"question": "Is smoking allowed?",
+				"answer": "Smoking is prohibited in the arena. Designated smoking areas are available outside."
+			}
+		]
+	}
+]
