@@ -19,9 +19,9 @@
 
 <div class="w-full">
 	<Header></Header>
-	<div class="flex h-32 w-full items-center bg-black/25 px-12 text-xl text-gray-300 outline outline-black">
-		<div class="aspect-video h-3/4">
-			<img src="/events/{id}.jpg" alt={event.name} class="h-full w-full object-cover" />
+	<div class="flex w-full items-center bg-black/25 text-xl text-gray-300 outline outline-black md:h-32 md:px-12">
+		<div class="aspect-video h-full w-1/3 md:h-3/4 md:w-auto">
+			<img src="/events/{id}.webp" alt={event.name} class="h-full w-full object-cover" />
 		</div>
 		<div class="ml-4 mr-auto">
 			<h1 class="text-2xl font-semibold">{event.name}</h1>

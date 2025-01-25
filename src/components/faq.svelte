@@ -7,7 +7,7 @@
 </script>
 
 <div class="text-gray-500">
-	<button type="button" class="flex w-full items-center justify-between gap-3 py-5 text-xl text-gray-100" on:click={() => (toggle = !toggle)}>
+	<button type="button" class="flex w-full items-center justify-between gap-3 py-5 text-left text-xl text-gray-100" on:click={() => (toggle = !toggle)}>
 		<span>{question.question}</span>
 		<ArrowSVG {toggle} />
 	</button>

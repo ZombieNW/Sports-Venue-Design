@@ -17,13 +17,13 @@
 
 <Header />
 
-<div class="mx-12 my-12">
+<div class="mx-4 my-12 md:mx-12">
 	<h1 class="text-7xl drop-shadow-[0_2.5px_2.5px_rgba(0,0,0,0.8)]">Frequently Asked Questions</h1>
 	<p class="my-4 text-xl text-gray-400">If you have any additional questions, please <a href="about">contact us</a>!</p>
 </div>
 
-<div class="mx-12 my-12 flex">
-	<div class="flex w-64 flex-col">
+<div class="mx-4 my-12 flex md:mx-12">
+	<div class="hidden w-0 flex-col md:flex md:w-64">
 		{#each faqs as category}
 			<a
 				href="#{category.category}"

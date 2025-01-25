@@ -98,9 +98,9 @@
 	}
 </script>
 
-<div class="mb-4 bg-gray-900 p-4">
-	<div class="mb-4 flex h-1/4 justify-between space-x-4">
-		<div class="flex space-x-4">
+<div class="mb-4 overflow-hidden bg-gray-900 p-4">
+	<div class="mb-4 flex h-1/4 flex-col justify-between md:flex-row">
+		<div class="flex space-x-2 md:space-x-4">
 			<button on:click={handleZoomOut} class="w-12 rounded-xl bg-gray-700 px-4 py-2">-</button>
 			<button on:click={handleZoomIn} class="w-12 rounded-xl bg-gray-700 px-4 py-2">+</button>
 			<select class="ml-2 w-64 rounded-xl bg-gray-700 px-2 py-1" on:change={(e) => (ticketPackage = e.target.selectedIndex)}>
@@ -113,7 +113,7 @@
 				Total Cost: ${totalCost}
 			</div>
 		</div>
-		<button class="rounded-xl bg-green-400 px-8 py-2 text-black outline outline-black/50">Checkout</button>
+		<button class="mt-4 rounded-xl bg-green-400 px-8 py-2 text-black outline outline-black/50 md:my-0">Checkout</button>
 	</div>
 	{#if !seatpickerneeded}
 		<p>ⓘ Note! This event does not require a chosen seat, you can select any seat.</p>

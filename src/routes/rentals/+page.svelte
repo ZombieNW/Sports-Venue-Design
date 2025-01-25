@@ -6,23 +6,30 @@
 
 <div class="relative inline-block h-2/3 w-full overflow-hidden">
 	<!-- svelte-ignore a11y_media_has_caption -->
-	<img src="rentals-bg.jpg" alt="People celebrating a concert with confetti in the air" class="0 pointer-events-none absolute h-full w-full object-cover" />
+	<img src="rentals-bg.webp" alt="People celebrating a concert with confetti in the air" class="0 pointer-events-none absolute h-full w-full object-cover" />
 	<div class="relative h-full w-full">
 		<Header />
-		<div class="absolute top-1/2 ml-12 -translate-y-1/2">
+		<div class="absolute top-1/2 ml-12 hidden -translate-y-1/2 md:block">
 			<h1 class="text-9xl font-bold drop-shadow-[0_2.5px_2.5px_rgba(0,0,0,0.8)]">
 				Make Your<br /> Event
 				<span class="animate-gradient bg-gradient-to-r from-blue-700 to-sky-500 bg-clip-text font-bold text-transparent"> Magical</span>
 			</h1>
 			<p class="text-4xl font-medium text-gray-400 drop-shadow-[0_2.5px_2.5px_rgba(0,0,0,0.8)]">Book your event at Cooltown Arena.</p>
 		</div>
+		<div class="mx-auto flex h-[calc(100%-6rem)] w-full flex-col items-center justify-center text-center md:hidden">
+			<h1 class="text-6xl font-bold drop-shadow-[0_2.5px_2.5px_rgba(0,0,0,0.8)]">
+				Make Your<br /> Event
+				<span class="animate-gradient bg-gradient-to-r from-blue-700 to-sky-500 bg-clip-text font-bold text-transparent"> Magical</span>
+			</h1>
+			<p class="text-2xl font-medium text-gray-300 drop-shadow-[0_2.5px_2.5px_rgba(0,0,0,0.8)]">Book your event at Cooltown Arena.</p>
+		</div>
 	</div>
 </div>
 
-<div class="flex w-full">
-	<div class="mx-12 my-12 w-1/3">
-		<h2 class="text-7xl drop-shadow-[0_2.5px_2.5px_rgba(0,0,0,0.8)]">Contact Us</h2>
-		<p class="my-4 text-2xl text-gray-400">If you have any additional questions, please fill out the form below and we'll get back to you as soon as possible!</p>
+<div class="flex w-full flex-col md:flex-row">
+	<div class="m-4 my-12 w-[calc(100%-2rem)] md:mx-12 md:w-1/3">
+		<h2 class="text-5xl drop-shadow-[0_2.5px_2.5px_rgba(0,0,0,0.8)] md:text-7xl">Contact Us</h2>
+		<p class="my-4 text-xl text-gray-400 md:text-2xl">If you have any additional questions, please fill out the form below and we'll get back to you as soon as possible!</p>
 		<form class="flex w-full flex-col" action="/" method="POST">
 			<label class="my-2" for="name">Name</label>
 			<input class="border-b-2 border-gray-700 bg-transparent p-2" type="text" name="name" id="name" required />
@@ -41,52 +48,21 @@
 			<button class="my-4 rounded-xl bg-sky-500 px-4 py-2 font-bold text-white hover:bg-sky-700" type="submit">Submit</button>
 		</form>
 	</div>
-	<div class="my-12 mr-12 w-2/3">
-		<section class="grid grid-cols-2 gap-12">
-			<div class="relative m-auto aspect-[3/2] h-96 rounded-xl bg-gray-900 outline outline-black/50 transition-transform duration-300 hover:scale-105">
-				<div class="absolute inset-0">
-					<img src="rentals-reason-1.jpg" alt="Event" class="h-full w-full rounded-xl object-cover" />
-					<div class="absolute inset-0 rounded-xl bg-gradient-to-t from-black to-transparent"></div>
+	<div class="mb-12 ml-4 w-[calc(100%-2rem)] overflow-hidden md:my-12 md:mr-12 md:w-2/3">
+		<section class="grid grid-cols-1 gap-12 md:grid-cols-2">
+			{#each [{ image: 'rentals-reason-1.webp', title: 'Professional Staff', subtitle: 'Our incredible staff team will help you make your event magical.' }, { image: 'rentals-reason-2.webp', title: 'Sound and Lighting', subtitle: 'Our advanced sound and lighting system can bring incredible atmosphere to any event.' }, { image: 'rentals-reason-3.webp', title: 'Convenient Location', subtitle: 'Located in the heart of the city, our venue is perfect for any event.' }, { image: 'rentals-reason-4.webp', title: 'Parking/Public Transit', subtitle: 'We offer convenient parking and public transit options for your convenience.' }] as reason}
+				<div class="relative m-auto aspect-[3/2] w-full rounded-xl bg-gray-900 outline outline-black/50 transition-transform duration-300 hover:scale-105 md:h-96">
+					<div class="absolute inset-0">
+						<img src={reason.image} alt="Event" class="h-full w-full rounded-xl object-cover" />
+						<div class="absolute inset-0 rounded-xl bg-gradient-to-t from-black to-transparent"></div>
+					</div>
+					<div class="absolute bottom-4 left-4 z-10 m-4 w-5/6">
+						<p class="text-3xl font-bold">{reason.title}</p>
+						<p class="text-xl italic text-gray-400">{reason.subtitle}</p>
+						<hr class="my-2 w-full border-gray-700" />
+					</div>
 				</div>
-				<div class="absolute bottom-4 left-4 z-10 m-4 w-5/6">
-					<p class="text-3xl font-bold">Professional Staff</p>
-					<p class="text-xl italic text-gray-400">Our incredible staff team will help you make your event magical.</p>
-					<hr class="my-2 w-full border-gray-700" />
-				</div>
-			</div>
-			<div class="relative m-auto aspect-[3/2] h-96 rounded-xl bg-gray-900 outline outline-black/50 transition-transform duration-300 hover:scale-105">
-				<div class="absolute inset-0">
-					<img src="rentals-reason-2.webp" alt="Event" class="h-full w-full rounded-xl object-cover" />
-					<div class="absolute inset-0 rounded-xl bg-gradient-to-t from-black to-transparent"></div>
-				</div>
-				<div class="absolute bottom-4 left-4 z-10 m-4 w-5/6">
-					<p class="text-3xl font-bold">Sound and Lighting</p>
-					<p class="text-xl italic text-gray-400">Our advanced sound and lighting system can bring incredible atmosphere to any event.</p>
-					<hr class="my-2 w-full border-gray-700" />
-				</div>
-			</div>
-			<div class="relative m-auto aspect-[3/2] h-96 rounded-xl bg-gray-900 outline outline-black/50 transition-transform duration-300 hover:scale-105">
-				<div class="absolute inset-0">
-					<img src="rentals-reason-3.webp" alt="Event" class="h-full w-full rounded-xl object-cover" />
-					<div class="absolute inset-0 rounded-xl bg-gradient-to-t from-black to-transparent"></div>
-				</div>
-				<div class="absolute bottom-4 left-4 z-10 m-4 w-5/6">
-					<p class="text-3xl font-bold">Convenient Location</p>
-					<p class="text-xl italic text-gray-400">Located in the heart of the city, our venue is perfect for any event.</p>
-					<hr class="my-2 w-full border-gray-700" />
-				</div>
-			</div>
-			<div class="relative m-auto aspect-[3/2] h-96 rounded-xl bg-gray-900 outline outline-black/50 transition-transform duration-300 hover:scale-105">
-				<div class="absolute inset-0">
-					<img src="rentals-reason-4.jpg" alt="Event" class="h-full w-full rounded-xl object-cover" />
-					<div class="absolute inset-0 rounded-xl bg-gradient-to-t from-black to-transparent"></div>
-				</div>
-				<div class="absolute bottom-4 left-4 z-10 m-4 w-5/6">
-					<p class="text-3xl font-bold">Parking/Public Transit</p>
-					<p class="text-xl italic text-gray-400">We offer convenient parking and public transit options for your convenience.</p>
-					<hr class="my-2 w-full border-gray-700" />
-				</div>
-			</div>
+			{/each}
 		</section>
 	</div>
 </div>

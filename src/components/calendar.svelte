@@ -22,11 +22,10 @@
 
 	function selectDate(date) {
 		selectedDate = new Date(date);
-		console.log(selectedDate);
 	}
 </script>
 
-<div class="m-4 w-full max-w-sm shadow-lg">
+<div class="w-full max-w-sm shadow-lg">
 	<div class="rounded-xl bg-gray-900 p-4 outline outline-black/50 md:p-8">
 		<div class="flex items-center justify-between px-4">
 			<span class="text-base font-bold text-gray-800 focus:outline-none dark:text-gray-100">{currentDate.toLocaleString('default', { month: 'long' })} {currentDate.getFullYear()}</span>

@@ -3,7 +3,7 @@
 		<div class="md:flex md:justify-between">
 			<div class="mb-6 md:mb-0">
 				<a href="https://flowbite.com/" class="flex items-center">
-					<img src="/logo.png" class="me-3 h-12" alt="FlowBite Logo" />
+					<img src="/logo.webp" class="me-3 h-12" alt="FlowBite Logo" />
 				</a>
 			</div>
 			<div class="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">

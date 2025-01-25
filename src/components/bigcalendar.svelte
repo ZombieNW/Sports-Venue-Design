@@ -26,7 +26,6 @@
 		const daysInPreviousMonth = new Date(currentDate.getFullYear(), currentDate.getMonth(), 0).getDate();
 		let totalDays = 42; // 6 weeks * 7 days
 
-		console.log(firstDayOfMonth + daysInMonth);
 		if (firstDayOfMonth + daysInMonth <= 35) {
 			totalDays -= 7;
 		}
