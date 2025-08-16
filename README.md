@@ -1,39 +1,25 @@
-# sv
+# Cooltown Arena
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+### _Oh yeah 😎_
 
-## Creating a project
+This is my entry for a regional web design competition through my school. It is a responsive and sleek looking website for a sports venue.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Features
 
-```bash
-# create a new project in the current directory
-npx sv create
+- Responsive design for various screen sizes
+- Reactive animations and effects
+- Customizable calendar of events
+- Contact form for inquiries
+- Seat Picker
 
-# create a new project in my-app
-npx sv create my-app
-```
+## Technologies Used
 
-## Developing
+- SvelteKit
+- Tailwind CSS
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Usage/Build
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
-"# FBLARegionals" 
+1. Clone project `git clone https://github.com/ZombieNW/Sports-Venue-Design.git`
+2. Open project directory `cd sports-venue-design`
+3. Install dependencies `npm install`
+4. Run `npm run dev`
