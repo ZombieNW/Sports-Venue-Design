@@ -19,7 +19,7 @@ This is my entry for a regional web design competition through my school. It is 
 
 ## Usage/Build
 
-1. Clone project `git clone https://github.com/ZombieNW/Sports-Venue-Design.git`
-2. Open project directory `cd sports-venue-design`
-3. Install dependencies `npm install`
+1. Clone `git clone https://github.com/ZombieNW/Sports-Venue-Design.git`
+2. Open directory `cd sports-venue-design`
+3. Install packages `npm install`
 4. Run `npm run dev`
